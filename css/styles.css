@@ -10,13 +10,6 @@ body {
   overflow-x: hidden;
 }
 
-.green {
-  color: #00ff72;
-}
-
-.blue {
-  color: #496dff;
-}
 
 .name {
   font-size: 400%;
@@ -27,29 +20,17 @@ body {
   transform: translate(-50%, -50%);
 }
 
-.containHeaders {
-  top: 50%;
-  left: 30%;
-  margin-top: 50px;
-}
+.descriptor {
 
-.headers {
-  float: left;
-  font-size: 150%;
   position: fixed;
-  margin-top: 50px;
-  margin-left: 150px;
   top: 50%;
-  left: 42%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
-.headers:first-child{
-	margin-left: 0;
-}
-.headers:last-child{
-	margin-right: 0;
-    float: right;
-}
+
+
 
 .button{
   color: #ffff66;
