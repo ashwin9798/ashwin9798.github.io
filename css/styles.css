@@ -4,7 +4,7 @@ body {
   width: 100%;
   height: 100%;
   color: #ffff66;
-  font-family: Helvetica;
+  font-family: "Avenir Next" !important;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   overflow-x: hidden;
@@ -53,6 +53,24 @@ p {
 .headers:last-child{
 	margin-right: 0;
     float: right;
+}
+
+.button{
+  color: #ffff66;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 180px;
+  height: 60px;
+  text-decoration: none;
 }
 
 #name {
