@@ -1140,7 +1140,7 @@ br {
 }
 
 .landing-projects-container {
-    padding-top: 2em;
+    padding-top: 4em;
     width: 100%;
     background-color: #496dff;
     -webkit-box-orient: vertical;
@@ -1174,7 +1174,8 @@ br {
 
 .featured-projects-contain {
     width: 100vw;
-    padding-bottom: 3em;
+    padding-top: 5em;
+    padding-bottom: 20em;
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
@@ -1198,12 +1199,14 @@ br {
     -ms-transform: scale(1);
     transform: scale(1);
     -webkit-transition: all .5s cubic-bezier(.215, .61, .355, 1);
-    transition: all .5s cubic-bezier(.215, .61, .355, 1)
+    transition: all .5s cubic-bezier(.215, .61, .355, 1);
+    border-radius: 10px;
 }
 
 .projImg {
     width: 30em;
-    height: auto
+    height: 30em;
+    border-radius: 10px;
 }
 
 .projDesc {
