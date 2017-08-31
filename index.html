@@ -1,13 +1,10 @@
-<!doctype html>
-<html lang="en">
 <head>
   <meta charset="utf-8">
   <title>Ashwin Vivek</title>
-  <link rel="stylesheet" href="css/aos.css" />
-  <link rel="stylesheet" href="css/aos-styles.css" />
-  <link rel="stylesheet" href="css/anime-styles.css" />
-  <link rel="stylesheet" href="css/styles.css" />
-  <link rel="stylesheet" href="css/animate.min.css" />
+  <link href="/static/css/main.css" rel="stylesheet">
+  <link href="/static/css/animate.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/static/css/anime-styles.css" />
+  <link href="https://use.fontawesome.com/e67d227f09.css" media="all" rel="stylesheet">
   <meta name="description" content="">
   <meta name="author" content="">
   <!-- <link rel="stylesheet" href="css/styles.css?v=1.0"> -->
@@ -15,45 +12,96 @@
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   <![endif]-->
+  <!-- <script>
+	  $(document).ready(function(){
+      $(".main").onepage_scroll({
+        sectionContainer: "section",
+        responsiveFallback: 600,
+        loop: true
+      });
+		});
+	</script> -->
 </head>
 <body>
-  <div id = "particles-js">
-    <canvas class="particles-js-canvas-el" style="width: 100%; height: 100%;"></canvas>
-    <canvas class="fireworks"></canvas>
-  </div>
-    <div class="Landing">
-      <div class="descriptor animated fadeIn">
-        <div style="font-size: 400%; text-align: center;">Ashwin Vivek</div>
-        <div style="width: 600px; text-align: center;">
-          <div style="color: #00ff71; font-size: 200%; float: left; width: 120px; text-align: center;"> Innovate </div>
-          <div style="color: #faff00; font-size: 200%; float: left; width: 120px; opacity:0.7;"> &bull; </div>
-          <div style="color:#496dff; font-size: 200%; float: left; width: 120px;"> Design </div>
-          <div style="color: #ffff00; font-size: 200%; float: left; width: 120px; opacity: 0.7;"> &bull; </div>
-          <div style="color:#ff0061; font-size: 200%; float: left; width: 120px;"> Develop </div>
+    <div id="bg">
+        <canvas class="particles-js-canvas-el" style="width: 100%; height: 100%;"></canvas>
+        <canvas class="fireworks"></canvas>
+    </div>
+    <div id="main">
+        <div data-reactroot="" class="App">
+            <!-- <div class="menu">
+                <div class="menu-button" style="opacity: 1;">
+                    <button type="button" class="tcon tcon-menu--arrow tcon-menu--arrowup" aria-label="toggle menu"><span class="tcon-menu__lines" aria-hidden="true"></span><span class="tcon-visuallyhidden">toggle menu</span></button>
+                </div>
+                <div class="menu-overlay" style="display: flex; left: 100%;">
+                    <div class="menu-item"><span style="top: 100%;"><a href="/">HOME</a></span></div>
+                    <div class="menu-item"><span style="top: 100%;"><a href="/#/projects">PROJECTS</a></span></div>
+                    <div class="menu-item"><span style="top: 100%;"><a href="/#/reads">READS</a></span></div>
+                    <div class="menu-item"><span style="top: 100%;"><a href="/#/writes">WRITES</a></span></div>
+                    <div class="menu-item"><span style="top: 100%;"><a href="/#/design">DESIGN</a></span></div>
+                    <div class="menu-item"><span style="top: 0%;"><a href="/#/gallery">GALLERY</a></span></div>
+                </div>
+                <script>
+                    transformicons.add('.tcon')
+                </script>
+            </div> -->
+            <!-- <div class="Landing-container" id="particles-js"> -->
+                <div class="Landing imageOpacity">
+                  <div class="descriptor">
+                    <div style="font-size: 700%; text-align: center;" id="typed">Ashwin Vivek</div>
+                    <div style="text-align: center; margin: 0 auto; width:auto;">
+                      <div style="color: #51b25f; font-size: 150%; float: left; width: 95px;"> Maker </div>
+                      <div style="color: white; font-size: 150%; float: left; width: 95px; opacity:0.7;"> | </div>
+                      <div style="color:#496dff; font-size: 150%; float: left; width: 95px;"> Designer </div>
+                      <div style="color: white; font-size: 150%; float: left; width: 95px; opacity: 0.7;"> | </div>
+                      <div style="color:#ff0061; font-size: 150%; float: left; width: 95px;"> Globetrotter </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="about-me-container">
+                  <div class="about-me-content">
+                    <h3 class="section-header" style="; visibility: visible;  -webkit-transform: translateY(0) scale(1); opacity: 1;transform: translateY(0) scale(1); opacity: 1;-webkit-transition: -webkit-transform 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) 0.15s, opacity 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) 0.15s; transition: transform 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) 0.15s, opacity 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) 0.15s; ">About me </h3>
+                    <div class="about-me-maincontain">
+                      <div class="about-me-text"> Hi, I'm Ashwin. I currently study Computer Science at UCLA. </br></br> I like <a style="color:#cc2c42" href="https://github.com/ashwin9798"> making cool things,</a> designing beautiful experiences, and collaborating with amazing people. </br></br>  When I'm not in Los Angeles, I live in <a style="color:#cc2c42"href=http://www.atlasobscura.com/things-to-do/hong-kong> Hong Kong.</a> </br></br> I have also lived in Singapore, New Jersey, and Dubai. </br></br> In my free time, I enjoy playing tennis, drawing, cooking, and learning new things.</div>
+                      <img class="img-circle" src="assets/photo.jpg" height="250" width="250">
+                    </div>
+                  </div>
+                </div>
+                <div class="landing-projects-container">
+                    <h3 class="section-header" data-sr-id="2" style="; visibility: visible;  -webkit-transform: translateY(0) scale(1); opacity: 1;transform: translateY(0) scale(1); opacity: 1;-webkit-transition: -webkit-transform 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) 0.15s, opacity 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) 0.15s; transition: transform 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) 0.15s, opacity 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) 0.15s; ">Featured</h3>
+                    <div class="featured-projects-contain">
+                        <a href="https://www.youtube.com/watch?v=q_p8TN9xwmc" target="_blank">
+                            <div class="featured-project" data-sr-id="18" style="; visibility: visible;  -webkit-transform: translateY(0) scale(1); opacity: 1;transform: translateY(0) scale(1); opacity: 1;-webkit-transition: all 0.5s cubic-bezier(0.215, 0.61, 0.355, 1) 0s, -webkit-transform 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) 0.02s, opacity 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) 0.02s; transition: all 0.5s cubic-bezier(0.215, 0.61, 0.355, 1) 0s, transform 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) 0.02s, opacity 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) 0.02s; "><img class="projImg" src="/static/media/ted.751613ed.png">
+                                <div class="projDesc">
+                                    <h3>Gopher Trace</h3>
+                                    <p>A Ray Tracer written in Go, to learn more about Computer Graphics</p>
+                                </div>
+                            </div>
+                        </a>
+                        <!-- more projects here -->
+                    </div>
+                </div>
+                <!-- <about-container> here -->
+            <!-- </div> -->
         </div>
-      </div>
     </div>
-    <div class="About">
-      Hi
-      ashs
-      asduohsdf
-      aasdos
-      a;sdjh
-    </br>
-      </br>
-        </br>
-          </br>
-    </div>
-  </div>
-    <script src="js/aos.js"></script>
-    <script>
-      AOS.init({
-        easing: 'ease-in-out-sine'
-      });
-    </script>
-    <script src="js/anime.min.js"></script>
-    <script src="js/fireworks.js"></script>
-    <script src="js/main.js"></script>
-    <script src="js/particles.js"></script>
-    <script src="js/particles-app.js"></script>
+    <script async="" src="//www.google-analytics.com/analytics.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script async="" src="/assets/transform.js"></script>
+    <link rel="stylesheet" href="/assets/transform.css">
+    <script async="" type="text/javascript" src="https://mzdr.github.io/node_modules/fluffy.js/dist/fluffy.min.js"></script>
+    <script src="https://use.fontawesome.com/e67d227f09.js"></script>
+    <script src="static/js/anime.min.js"></script>
+    <script src="static/js/fireworks.js"></script>
+    <script src="static/js/open.js"></script>
+    <script src="static/js/particles.js"></script>
+    <script src="static/js/particles-app.js"></script>
+    <!-- <script type="text/javascript">
+        var config = ./particles;
+
+        particlesJS.load("bg", config, function() {
+            console.log("from index")
+        })
+    </script> -->
+    <!-- <script type="text/javascript" src="/static/js/main.js"></script> -->
 </body>
