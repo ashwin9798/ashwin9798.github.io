@@ -5,6 +5,7 @@
   <link href="/static/css/animate.min.css" rel="stylesheet">
   <link rel="stylesheet" href="/static/css/anime-styles.css" />
   <link href="https://use.fontawesome.com/e67d227f09.css" media="all" rel="stylesheet">
+  <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
   <meta name="description" content="">
   <meta name="author" content="">
   <!-- <link rel="stylesheet" href="css/styles.css?v=1.0"> -->
@@ -46,7 +47,7 @@
                 </script>
             </div> -->
             <!-- <div class="Landing-container" id="particles-js"> -->
-                <div class="Landing imageOpacity">
+                <div class="Landing imageOpacity" data-aos="flip-left">
                   <div class="descriptor">
                     <div style="font-size: 700%; text-align: center;" id="typed">Ashwin Vivek</div>
                     <div style="text-align: center; margin: 0 auto; width:auto;">
@@ -58,7 +59,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="about-me-container">
+                <div class="about-me-container" data-aos="flip-left">
                   <div class="about-me-content">
                     <h3 class="section-header" style="; visibility: visible;  -webkit-transform: translateY(0) scale(1); opacity: 1;transform: translateY(0) scale(1); opacity: 1;-webkit-transition: -webkit-transform 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) 0.15s, opacity 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) 0.15s; transition: transform 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) 0.15s, opacity 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) 0.15s; ">About me </h3>
                     <div class="about-me-maincontain">
@@ -96,6 +97,10 @@
     <script src="static/js/open.js"></script>
     <script src="static/js/particles.js"></script>
     <script src="static/js/particles-app.js"></script>
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <!-- <script type="text/javascript">
         var config = ./particles;
 
