@@ -36,8 +36,6 @@ dl,
 dt,
 dd,
 ol,
-ul,
-li,
 fieldset,
 form,
 label,
@@ -76,6 +74,24 @@ video {
     background: transparent
 }
 
+ul {
+    list-style-type: none;
+}
+
+li a {
+    display: block;
+    width: 150px;
+    font-size:200%;
+    margin-top: 75px;
+}
+
+.navbar {
+  position: absolute;
+  right: 0px;
+  top: 30px;
+  z-index: 500;
+}
+
 body {
     line-height: 1
 }
@@ -111,7 +127,7 @@ q:after {
 }
 
 a {
-    margin: 0;
+    /*margin: 0;*/
     padding: 0;
     font-size: 100%;
     vertical-align: baseline;
@@ -729,7 +745,6 @@ h6 {
 }
 
 .Landing:after {
-    z-index: 1;
     position: relative;
     background: url(/assets/hong-kong.png) no-repeat;
     background-size:60%;
@@ -953,7 +968,7 @@ h6 {
     height: auto;
     width: 100%;
     position: relative;
-    background: #00b653;
+    background: rgb(81,178,95);
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -1154,7 +1169,7 @@ br {
 .experiences-container {
   padding-top: 4em;
   width: 100%;
-  background-color: #ff48c2;
+  background-color: rgb(236,92,189);
   -webkit-box-orient: vertical;
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
