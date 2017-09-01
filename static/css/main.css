@@ -85,6 +85,10 @@ li a {
     margin-top: 75px;
 }
 
+li a:visited {
+  color: white;
+}
+
 .navbar {
   position: absolute;
   right: 0px;
