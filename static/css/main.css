@@ -82,7 +82,7 @@ li a {
     display: block;
     width: 150px;
     font-size:180%;
-    margin-top: 75px;
+    margin-top: 55px;
     transition: all 500ms;
 }
 
@@ -1004,7 +1004,7 @@ h6 {
   font-size: 130%;
   font-family: "Avenir Next";
   color:#181a1c;
-  margin-top: 100px;
+  margin-top: 70px;
   width: 500px;
   margin-right: 100px;
   height: auto;
