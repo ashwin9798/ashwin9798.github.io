@@ -81,12 +81,17 @@ ul {
 li a {
     display: block;
     width: 150px;
-    font-size:200%;
+    font-size:180%;
     margin-top: 75px;
+    transition: all 500ms;
 }
 
 li a:visited {
   color: white;
+}
+
+li a:hover {
+  font-size: 200%;
 }
 
 .navbar {
