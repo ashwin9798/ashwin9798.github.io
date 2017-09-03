@@ -303,158 +303,6 @@ body ul {
     transition: opacity .4s ease
 }
 
-.info {
-    background: url("../img/uzik.png") no-repeat;
-    max-width: 500px;
-    height: 68px;
-    text-indent: 90px;
-    line-height: 68px;
-    font-style: italic;
-    margin-top: 30px;
-    margin-bottom: 30px
-}
-
-.text {
-    max-width: 520px;
-    margin: 30px 0;
-    color: #fff
-}
-
-.words {
-    margin-bottom: 30px
-}
-
-.words li {
-    background: #fff;
-    padding: 5px;
-    border-radius: 5px;
-    list-style: none;
-    color: #000;
-    display: inline;
-    float: left;
-    margin: 10px 10px 0 0;
-    line-height: 1em;
-    cursor: default
-}
-
-.works {
-    margin-bottom: 20px
-}
-
-.works li {
-    margin-bottom: 20px;
-    cursor: default
-}
-
-.works li:first-child {
-    margin-bottom: .5em;
-    font-family: 'DINPro-Light', Arial;
-    font-size: 1.1em
-}
-
-.works li:first-child:before {
-    display: none
-}
-
-.works li>a .list-none:before {
-    display: none
-}
-
-.works li img {
-    vertical-align: middle;
-    margin: -1px 0 0 7px
-}
-
-.works span {
-    display: block
-}
-
-.contact {
-    clear: left;
-    padding: 30px 0;
-    max-width: 562px
-}
-
-.companies {
-    height: 66px;
-    margin: 35px 0;
-    overflow: hidden;
-    position: relative
-}
-
-.companies_top {
-    height: 100%
-}
-
-.companies_top li {
-    display: inline-block;
-    width: 112px;
-    height: 100%;
-    text-align: center;
-    vertical-align: middle;
-    position: relative;
-    cursor: pointer;
-    margin-right: 12px
-}
-
-.companies_top li>div {
-    position: absolute;
-    left: 0;
-    top: 80px;
-    width: 100%;
-    -webkit-transition: top .3s ease;
-    transition: top .3s ease
-}
-
-.companies_top li>div span {
-    line-height: 1.5em;
-    width: 100%;
-    display: block;
-    margin: 0 auto;
-    font-family: 'DINPro-Light', Arial;
-    font-size: 1.1em
-}
-
-.companies_top li>img {
-    -webkit-transition: opacity .2s ease;
-    transition: opacity .2s ease
-}
-
-.companies_top li:hover>img {
-    opacity: 0
-}
-
-.companies_top li:hover>div {
-    top: 8px
-}
-
-.thetwelve img {
-    margin-top: 20px
-}
-
-.r2d img {
-    margin-top: 17px
-}
-
-.livestorm img {
-    margin-top: 14px
-}
-
-.companies_bottom {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 4px
-}
-
-.companies_bottom li {
-    width: 112px;
-    height: 4px;
-    background: #fff;
-    display: inline-block;
-    vertical-align: top;
-    margin-right: 12px
-}
 
 #anim {
     position: fixed;
@@ -1030,7 +878,6 @@ br {
     display:table-cell;
 }
 
-.org-logos-contain,
 .about-me-maincontain {
     /*display: -webkit-box;
     display: -webkit-flex;
@@ -1047,98 +894,6 @@ br {
     flex-wrap: wrap
 }
 
-.org-logos-contain {
-    width: 70%;
-    -webkit-box-orient: horizontal;
-    -webkit-flex-direction: row;
-    -ms-flex-direction: row;
-    flex-direction: row
-}
-
-.current-work {
-    width: 70%;
-    height: auto;
-    padding: 1em;
-    padding-bottom: 3em
-}
-
-.current-work,
-.org {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    text-align: center
-}
-
-.org {
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    position: relative;
-    width: 9em;
-    height: 9em;
-    background-color: #fff;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, .12), 0 1px 2px rgba(0, 0, 0, .24);
-    -webkit-transition: all .3s cubic-bezier(.25, .8, .25, 1);
-    transition: all .3s cubic-bezier(.25, .8, .25, 1);
-    overflow: hidden;
-    -webkit-transition: all .2s ease;
-    transition: all .2s ease;
-    cursor: pointer
-}
-
-.org img {
-    position: relative;
-    top: 0;
-    display: block;
-    margin: auto;
-    width: 60%;
-    height: 60%
-}
-
-.org-description,
-.org img {
-    -webkit-transition: all .4s cubic-bezier(.215, .61, .355, 1);
-    transition: all .4s cubic-bezier(.215, .61, .355, 1)
-}
-
-.org-description {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    padding-top: .7em;
-    padding-left: 1em;
-    padding-right: 1em;
-    box-sizing: border-box;
-    background-color: #ea4141;
-    text-align: center;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    color: #fff
-}
-
-.org:hover .org-description {
-    top: 0
-}
-
-.org:hover.org img {
-    top: -100%
-}
-
-.org:hover {
-    box-shadow: 0 14px 28px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .22)
-}
 
 .landing-projects-container {
     padding-top: 4em;
@@ -1487,9 +1242,7 @@ i:hover {
         -ms-flex-align: baseline;
         align-items: baseline
     }
-    .mihir {
-        font-size: 3em
-    }
+
     .subhead {
         width: 100vw;
         -webkit-box-align: center;
@@ -1641,10 +1394,6 @@ i:hover {
         text-align: left;
         height: auto;
         height: 4em
-    }
-    .mihirgif-container {
-        position: relative;
-        left: -9%
     }
 }
 
