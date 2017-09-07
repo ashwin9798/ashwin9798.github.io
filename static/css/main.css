@@ -801,7 +801,7 @@ h6 {
     height: auto;
     width: 100%;
     position: relative;
-    background: rgb(81,178,95);
+    background: rgb(81,178,94);
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -927,7 +927,7 @@ br {
   right: 0;
   background: url(/assets/la.png) no-repeat;
   background-size: 87%;
-  background-position: 50% 100%
+  background-position: 54% 100%
 }
 
 .experiences-container::before {

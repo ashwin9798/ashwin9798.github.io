@@ -12,7 +12,15 @@
   <meta name="description" content="">
   <meta name="author" content="">
   <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-
+  <script>
+  $(document).ready(function() {
+    if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) {
+      $("#about").css('background', 'rgb(0,182,83)')
+      $("#experiences").css('background', 'rgb(255,72,194)')
+      console.log('hasojd')
+    }
+  });
+  </script>
   <script>
   $(document).ready(function(){
     // Add smooth scrolling to all links
